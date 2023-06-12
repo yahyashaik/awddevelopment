@@ -1,0 +1,534 @@
+
+
+
+  
+
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("et.jpeg");
+  background-repeat: no-repeat;
+
+  min-height: 400px;
+
+  /* Center and scale the image nicely */
+  background-position:  cover ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.body{
+  font-family: "Audiowide",sans-serif; 
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #9b9292;
+}
+
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 50px;
+  width: fit-content;
+  justify-content: center;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+ 
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: black;
+  justify-content: left;
+  padding: 20px 50px;
+  text-decoration:none;
+  font-size: 17px;
+  border-radius: 5px;
+  border-color: bisque;
+}
+
+.topnav a:hover {
+  background-color:rgb(9, 9, 120);
+  
+}
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid  #373D3F;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background:rgb(218, 210, 210);
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color:  #373D3F;
+  outline: thick;
+}
+
+/* Set a style for the submit/login button */
+.form-container.btn {
+  background-color: #373D3F ;
+  
+  padding: 16px 20px;
+  border-style: ridge;
+  cursor: pointer;
+  width: 90%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: blue;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+ 
+div.container-footer.w-container {
+ 
+  background-color:#1a1d1e;
+ 
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: auto;
+  padding-bottom: 40px;
+  padding-top: 70px;
+}
+ 
+div.container-footer.w-container:after {
+  clear: both;
+  content: " ";
+  display: table;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+ 
+div.container-footer.w-container:before {
+  content: " ";
+  display: table;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+ 
+div.w-row {
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ 
+div.w-row:after {
+  clear: both;
+  content: " ";
+  display: table;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+ 
+div.w-row:before {
+  content: " ";
+  display: table;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+ 
+div.footer-column.w-clearfix.w-col.w-col-4 {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  width: 33.3333%;
+}
+ 
+div.footer-column.w-clearfix.w-col.w-col-4:after {
+  clear: both;
+  content: " ";
+  display: table;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+ 
+div.footer-column.w-clearfix.w-col.w-col-4:before {
+  content: " ";
+  display: table;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+ 
+img.failory-logo-image {
+  border-width: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  
+  max-width: 100%;
+  vertical-align: middle;
+}
+ 
+h3.footer-failory-name {
+  box-sizing: border-box;
+  color:whitesmoke;
+  display: block;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.1em;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 24px;
+}
+ 
+p.footer-description-failory {
+  box-sizing: border-box;
+  color:whitesmoke;
+  display: block;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+  margin-bottom: 16px;
+  margin-top: 15px;
+}
+ 
+br {
+  box-sizing: border-box;
+}
+ 
+div.footer-column.w-col.w-col-8 {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  width: 66.6667%;
+}
+ 
+div.w-col.w-col-8 {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 66.6667%;
+}
+ 
+div.w-col.w-col-7.w-col-small-6.w-col-tiny-7 {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 58.3333%;
+}
+ 
+h3.footer-titles {
+  box-sizing: border-box;
+  color: whitesmoke;
+  display: block;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.1em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 24px;
+}
+ 
+p.footer-links {
+  box-sizing: border-box;
+  color: whitesmoke;
+  display: block;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.8em;
+  margin-bottom: 16px;
+  margin-top: 2px;
+}
+ 
+a {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-decoration: none;
+}
+ 
+a:active {
+  outline: 0;
+}
+ 
+a:hover {
+  outline: 0;
+}
+ 
+span.footer-link {
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-weight: 300;
+}
+ 
+span.footer-link:hover {
+  color: #8b6a6a;
+  font-weight: 400;
+}
+ 
+span {
+  box-sizing: border-box;
+}
+ 
+strong {
+  box-sizing: border-box;
+  font-weight: 700;
+}
+ 
+div.w-col.w-col-5.w-col-small-6.w-col-tiny-5 {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 41.6667%;
+}
+ 
+div.column-center-mobile.w-col.w-col-4 {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 33.3333%;
+}
+ 
+a.footer-social-network-icons.w-inline-block {
+  
+  box-sizing: border-box;
+  color: whitesmoke;
+  display: inline-block;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2em;
+  margin-right: 8px;
+  margin-top: 10px;
+  max-width: 100%;
+  opacity: 0.8;
+  text-decoration: none;
+}
+ 
+a.footer-social-network-icons.w-inline-block:active {
+  outline: 0;
+}
+ 
+a.footer-social-network-icons.w-inline-block:hover {
+  opacity: 1;
+  outline: 0;
+}
+ 
+img {
+  border-width: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+ 
+p.footer-description {
+  box-sizing: border-box;
+  color:whitesmoke;
+  display: block;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+  margin-bottom: 16px;
+  margin-top: 15px;
+}
+ 
+strong.link-email-footer {
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  top: -100px;
+  left: -100px;
+  right: -100px;
+  height: 60vh;
+  rotate: -4deg;
+  background: #373D3F;
+  
+}
+
+.card {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  order: 2;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 50px;
+  background: black;
+  font-size: 125%;
+}
+
+.card.primary {
+  order: 1;
+}
+
+.card.primary var {
+  font-size: 60px;
+}
+
+@media (width >= 660px) {
+  .card {
+    width: 60vw;
+  }
+}
+
+@media (width >= 960px) {
+  body {
+    padding: 0;
+    flex-direction: row;
+  }
+
+  body,
+  html {
+    height: 100%;
+  }
+
+  .card {
+    width: 300px;
+    max-width: 300px;
+    margin: 0;
+    font-size: 100%;
+  }
+
+  .card.primary {
+    order: 2;
+    color: white;
+  }
+}
+
+p,
+h2 {
+  margin: 0;
+  color: white;
+}
+
+.card var {
+  color: red;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.card var small {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+ul li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 6px 0;
+}
+
+ul li img {
+  width: 16px;
+}
+li:developer {
+  list-style: none;
+}
+li:Email {
+  list-style: none;
+}
+
+
+
